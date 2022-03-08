@@ -50,8 +50,8 @@ app.get("*", (req, res) => {
 });
 
 const httpsOptions = {
-  key: fs.readFileSync("..security/key.pem"),
-  cert: fs.readFileSync("..security/cert.pem"),
+  key: fs.readFileSync("D:/edeskio/edeskio-expressserver/security/key.pem"),
+  cert: fs.readFileSync("D:/edeskio/edeskio-expressserver/security/cert.pem"),
   // passphrase: "test",
 };
 
